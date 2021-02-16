@@ -1,49 +1,88 @@
-
-body{
-    background-color: #fff2df;
-}
-.qPanel{
-    background-color: #e0876a;
-    /* border: 2px solid rgb(31, 53, 29); */
-    box-shadow: 2px 2px 20px rgb(82, 80, 80);
-    margin: 2rem;
-    padding: 2rem;
-    height: 14%;
-    border-radius: 1rem;
-
-}
-.qPanel.opt ul {
-    list-style-type: none;}
-#nam{
+.container {
+    position: relative;
+    text-align: center;
+  }
+  img{
+      height: 43.2rem;
+      margin-top: -2.5rem;
+      opacity: 0.35;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+   top: 500px;
+  }
+ 
+  .btmleftmost{
+    position: absolute;
+   bottom: 31px;
+   left: 640px;
+   margin-left: 13rem;
+   
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
     background-color:  #77a8a8;
     box-shadow: 2px 2px 20px rgb(104, 103, 103);
     margin: 0.5rem;
     margin-top: -2.5rem;
     padding: 1rem;
-    height: 7%;
+    height: 18%;
     font-size: 2.4rem;
     font-family: 'Lobster Two', cursive;
-    padding-left: 32rem;
+    padding-left: 25rem;
     color: black;
-   
+    font-size: 5rem;
+    padding-right: 30rem;
+  }
+  .nam1{
+      font-size: 4rem;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  .centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 20px rgb(82, 80, 80);
+    margin: 1rem;
+    padding: .5rem;
+    height: 14%;
+    border-radius: 1rem;
+    height: 60%;
+    width: 90%;
+  }
+  .centered:hover{
+    border: 0.5px solid rgb(82, 76, 76);
+    box-shadow: 3px 3px 5px rgb(78, 77, 77);
+  }
+  .qPanel{
+    background-color: #e0876a;
+    box-shadow: 2px 2px 20px rgb(82, 80, 80);
+    margin: 1.4rem;
+    padding: 0.4rem;
+    height: 40%;
+    border-radius: 1rem;
+
 }
-#nam:hover{
-    border: 1px solid rgb(82, 76, 76);
-    background-color: #96ceb4;
-    border-radius: 3rem;
-    border: 2px solid black;
+.qPanel:hover{
+    border: 0.5px solid rgb(82, 76, 76);
+    box-shadow: 3px 3px 5px rgb(78, 77, 77);
 }
-.nam1{
-    padding-left: 5rem;
-}
-.ques{
-  
-    
+ ul li {
+    list-style-type: none;}
+  .ques{
     font-size: 1.8rem;
-  
     font-family: 'Lobster Two', cursive;
 }
-.opt{
+  .opt{
     font-size: 1.3rem;
     font-display: bold;
     margin-top: 2.5rem;
@@ -60,13 +99,11 @@ body{
     padding-right: 2rem;
 }
 .nxtBtn{
-    background-color:  #77a8a8;
     box-shadow: 2px 2px 20px rgb(104, 103, 103);
     padding-left: 15rem;
     padding-right: 15rem;
     padding-top: 0.7rem;
-    padding-bottom: 0.7;
-   
+    padding-bottom: 0.7;  
 border-radius: 1rem;
 font-size: 1.3rem;
 }
@@ -74,9 +111,6 @@ font-size: 1.3rem;
     font-family: 'Antic Slab', serif;
     box-shadow: 4px 4px 20px rgb(80, 79, 79);
 }
-/* .qt1{
-margin-top: 0.7rem;
-} */
 .qt:hover{
     background-color: #e0876a;
     font-family: 'Antic Slab', serif;
@@ -97,7 +131,7 @@ margin-top: 0.7rem;
 }
 .ans1{
     background-color: rgb(255, 255, 255);
-    width: 15%;
+    width: 35%;
     height: 4%;
 }
 .ans{
@@ -105,6 +139,8 @@ margin-top: 0.7rem;
     background-color:rgb(221, 161, 105);
     font-size: 0.5rem;
     border-radius: 2px;
+    color: black;
+    padding-right: 10rem;
 }
 .ans:hover{
     background-color: rgb(255, 255, 255);
@@ -118,5 +154,14 @@ margin-top: 0.7rem;
     width: 6%;
     height: 2%;
     padding: 3px;
-    margin: 1px;
+    color: black;
+    background-color: blanchedalmond;
+    font-size: 2rem;
+}
+.hint:hover{
+    opacity: 0.05;
+    background-color:rgb(221, 161, 105);
+    font-size: 0.5rem;
+    border-radius: 2px;
+    color: black;
 }

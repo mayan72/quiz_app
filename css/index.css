@@ -1,13 +1,6 @@
 .w3-animate-fading{
-    height: 10%;
+    height: 100%;
     width: 100%;
-}
-.entername{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    float: left;
-    top: 3rem;
 }
 .page1{
     justify-content: center;
@@ -18,54 +11,55 @@
 }
 .container {
     background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-.box {
-    background-color: #d96459;
-    width: 100%;
+.centered{
     height: 4rem;
-    position: relative;
-    padding-left: 36rem;
-    font-size: 3rem;
-    animation-name: mayank2;
-    animation-duration: 2s;
-    animation-iteration-count: 6;
+    font-size: 6.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: 'Lobster Two', cursive;
 }
-
-
-@keyframes mayank2 {
-    0%{
-        top:0px;
-        left:20px;
-        background-color: blanchedalmond;
-        box-shadow: 5px 5px 5px 5px 10px grey;
-    }
-    25%{
-        /* top: 15px; */
-        left: 10px;
-        background-color: rgb(137, 165, 216);
-        box-shadow: 5px 5px 5px 5px 10px grey;
-    }
-    75%{
-        /* top: 30px; */
-        left: 50px;
-        background-color: dimgrey;
-        box-shadow: 5px 5px 5px 5px 10px grey;
-    }
-    100%{
-        top: 0px;
-        left: 100px;
-        background-color: rgb(202, 194, 82);
-        box-shadow: 5px 5px 5px 5px 10px grey;
-    }
-    
+.centered:hover{
+    opacity: 0.9;
+    font-size: 7rem;
+    color: rgb(19, 2, 2);
 }
-.page2{
-    background-color: cadetblue;
-} 
-.page2-1:hover{
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: black;
+    font-size: 1.3rem;
+    margin-bottom: 12rem;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 4px;
+    right: 16px;
+    opacity: 0.8;
+    background-color: rgb(216, 160, 160);
+    box-shadow: 3px 3px 20px solid grey;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 12rem;
+  }
+.bottom-right:hover{
+    opacity: 0.7;
+    padding: 1rem;
+}
+  .btmr{
     opacity: 0.8;
     background-color: rgb(52, 196, 52);
     box-shadow: 3px 3px 20px solid grey;
- }
+    color: black;
+    font-size: 1rem;
+  }
+
